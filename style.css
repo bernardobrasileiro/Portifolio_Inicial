@@ -1,0 +1,126 @@
+/*GERAL*/
+:root {
+    --fundo: rgb(2, 2, 46);
+    --texto: rgb(210, 200, 186);
+    --destaque: rgb(191, 169, 132);
+    --borda: rgb(210, 200, 186);
+    --suavização: rgb(16, 16, 60);
+
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto);
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+figure img {
+    border: 1px solid var(--borda);
+    border-radius: 8px;
+    padding: 4px;
+    background: var(--fundo);
+}
+
+section {
+    border-bottom: 1px solid var(--borda);
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+h1, h2, h3 {
+    color: var(--destaque);
+}
+
+h2 {
+    font-size: 26px;
+    border-left: 4px solid var(--borda);
+    padding-left: 12px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    color: rgb(100, 137, 207);
+    font-width: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(144, 176, 235);
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ol {
+    padding-bottom: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+/*CABEÇALHO*/
+
+#cabecalho {
+    background-color: var(--suavização);
+    color: var(--texto);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid var(--borda);
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+#nome {
+    font-size: 50px;
+}
+
+#profissional {
+    font-size: 20px;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+}
+
+/*CORPO*/
+
+.destaque {
+    font-weight: bold;
+}
+
+#corpo {
+    background-color: var(--fundo);
+    color: var(--texto);
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+    max-width: 900px;
+}
+
+/*RODAPÉ*/
+
+#rodape {
+    background-color: var(--suavização);
+    color: var(--texto);
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid var(--borda);
+}
+
+#rodape ul {
+    list-style: none;
+    padding: 0;
+}
