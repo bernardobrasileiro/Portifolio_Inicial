@@ -1,6 +1,6 @@
 # Portifólio — Bernardo Brasileiro Diniz
 
-Portfólio pessoal desenvolvido como projeto de estudos, com o objetivo de apresentar minha trajetória acadêmica, projetos e interesses pessoais.
+Portifólio pessoal desenvolvido como projeto de estudos, com o objetivo de apresentar minha trajetória acadêmica, projetos e interesses pessoais.
 
 🔗 **Acesse o site:** [https://bernardobrasileiro.github.io/Portifolio_Inicial/](#)
 
