@@ -1,4 +1,4 @@
-# Portfólio — Bernardo Brasileiro Diniz
+# Portifólio — Bernardo Brasileiro Diniz
 
 Portfólio pessoal desenvolvido como projeto de estudos, com o objetivo de apresentar minha trajetória acadêmica, projetos e interesses pessoais.
 
